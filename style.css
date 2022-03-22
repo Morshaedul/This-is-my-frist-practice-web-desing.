@@ -1,0 +1,33 @@
+
+
+#container{
+		display:grid;
+		
+		background-color:;
+		grid-template-columns:0.2fr 1.8fr;
+		grid-template-rows:0.2fr 1.8fr 0.2fr;
+		grid-template-areas:" header header"
+							"sidebar main"
+							"footer footer";		
+		grid-gap:5px;	
+}
+#header{grid-area:header;
+	background-color:green;	
+	height:60px;
+	text-align:center;
+	
+}
+#sidebar{grid-area:sidebar;
+	background-color:rgb(17, 230, 249);	
+	height:400px;
+}
+#main{
+	grid-area:main;
+	background-color:rgb(169, 188, 190);	
+	height:400px;
+}
+#footer{grid-area:footer;
+	background-color:green;	
+	height:60px;
+	text-align:center;
+}
